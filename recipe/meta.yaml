@@ -1,4 +1,4 @@
-{% set version = "0.14.4" %}
+{% set version = "0.14.5" %}
 
 package:
   name: scikit-rf
@@ -7,7 +7,7 @@ package:
 source:
   fn: scikit-rf-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/scikit-rf/scikit-rf-{{ version }}.tar.gz
-  sha256: c7643feb5142670d100515ec160e8b8644120b6c99a76e685aba4a90f0eb93cf
+  sha256: 43f734a28d460a8f005bd875e0c0ea3dd9c5dfc6bc389f116b8dde11cd38518d
 
 build:
   number: 0
