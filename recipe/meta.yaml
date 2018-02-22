@@ -6,7 +6,7 @@ package:
 
 source:
   fn: scikit-rf-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/s/scikit-rf/scikit-rf-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/scikit-rf/scikit-rf-{{ version }}.zip
   sha256: d9c4da72713edb8038dda50cca97695932278b652f0f25c566215b4eef4a334a
   
 
