@@ -6,8 +6,8 @@ package:
 
 source:
   fn: scikit-rf-{{ version }}.zip
-  url: https://pypi.io/packages/source/s/scikit-rf/scikit-rf-{{ version }}.zip
-  sha256: 74d8e8b44c84782c99ae9ab7f997af1ece63385e5f69540d4d7aaf3ec00a6c02
+  url: https://github.com/scikit-rf/scikit-rf/archive/v{{ version }}.zip
+  sha256: c8318102f7eb7971b1b57acd6a8524dd2357d2b8901836f7418c3abb51af87e2
 
 build:
   number: 0
