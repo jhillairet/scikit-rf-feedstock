@@ -14,14 +14,15 @@ Summary: Object Oriented Microwave Engineering.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/scikit-rf-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/scikit-rf-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/scikit-rf-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/scikit-rf-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/scikit-rf-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/scikit-rf-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/scikit-rf-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/scikit-rf-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-rf/badges/version.svg)](https://anaconda.org/conda-forge/scikit-rf)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/scikit-rf/badges/downloads.svg)](https://anaconda.org/conda-forge/scikit-rf)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-scikit--rf-green.svg)](https://anaconda.org/conda-forge/scikit-rf) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/scikit-rf.svg)](https://anaconda.org/conda-forge/scikit-rf) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/scikit-rf.svg)](https://anaconda.org/conda-forge/scikit-rf) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/scikit-rf.svg)](https://anaconda.org/conda-forge/scikit-rf) |
 
 Installing scikit-rf
 ====================
