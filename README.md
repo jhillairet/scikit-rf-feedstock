@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@arsenovic](https://github.com/arsenovic/)
+* [@jhillairet](https://github.com/jhillairet/)
 
