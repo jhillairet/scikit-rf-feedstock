@@ -5,7 +5,7 @@ Home: http://www.scikit-rf.org
 
 Package license: BSD 3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Object Oriented Microwave Engineering.
 
