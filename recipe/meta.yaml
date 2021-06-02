@@ -36,7 +36,6 @@ requirements:
     - pyqtgraph
     - pyvisa
     - sip
-    - pywin32
     - traits
     - bokeh
     - traitsui
