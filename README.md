@@ -3,7 +3,7 @@ About scikit-rf
 
 Home: http://www.scikit-rf.org
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-rf-feedstock/blob/master/LICENSE.txt)
 
