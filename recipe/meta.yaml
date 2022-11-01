@@ -1,4 +1,4 @@
-{% set version = "0.23.1" %}
+{% set version = "0.24.0" %}
 
 package:
   name: scikit-rf
@@ -8,7 +8,7 @@ package:
 source:
   fn: scikit-rf-{{ version }}.zip
   url: https://github.com/scikit-rf/scikit-rf/archive/v{{ version }}.zip
-  sha256: 41a6def57b1d60df3e1198ce5daefd2f02d6bd5088534f1274f6be6e12b7e30f
+  sha256: 11b36c9487a83bd429397643e1bab04b42b1f0fee959329ff0e193efea05bf75
 
 
 
