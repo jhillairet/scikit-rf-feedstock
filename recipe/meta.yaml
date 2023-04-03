@@ -1,4 +1,4 @@
-{% set version = "0.15.2" %}
+{% set version = "0.25.0" %}
 
 package:
   name: scikit-rf
@@ -8,22 +8,22 @@ package:
 source:
   fn: scikit-rf-{{ version }}.zip
   url: https://github.com/scikit-rf/scikit-rf/archive/v{{ version }}.zip
-  sha256: 259378c33893e545284727249a3d7288a6b83e0af1a953ef5819149895d0dba9
+  sha256: 6147ca18ef80f458c7e141c9c41ab3eb4a292911238ad32486a2c0a830be4adb
 
 
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
     - setuptools
   run:
-    - python
+    - python >=3.6
     - pandas
     - ipython
     - numpy
@@ -31,6 +31,14 @@ requirements:
     - matplotlib-base
     - six
     - future
+    - qtpy
+    - pyyaml
+    - pyqtgraph
+    - pyvisa
+    - sip
+    - traits
+    - bokeh
+    - traitsui
 
 test:
   imports:
@@ -42,13 +50,13 @@ test:
 
 about:
   home: http://www.scikit-rf.org
-  license: BSD 3-Clause
-  summary: 'Object Oriented Microwave Engineering.'
+  license: BSD-3-Clause
+  summary: Object Oriented Microwave Engineering.
   doc_url: http://scikit-rf.readthedocs.io/
   dev_url: https://github.com/scikit-rf/scikit-rf
   license_file: LICENSE.txt
-  
+
 extra:
   recipe-maintainers:
     - arsenovic
-    - jhillairet 
+    - jhillairet
