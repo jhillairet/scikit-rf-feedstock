@@ -1,11 +1,11 @@
-About scikit-rf
-===============
+About scikit-rf-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-rf-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.scikit-rf.org
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/scikit-rf-feedstock/blob/main/LICENSE.txt)
 
 Summary: Object Oriented Microwave Engineering.
 
