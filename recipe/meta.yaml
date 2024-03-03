@@ -8,7 +8,7 @@ package:
 source:
   fn: scikit-rf-{{ version }}.zip
   url: https://github.com/scikit-rf/scikit-rf/archive/v.{{ version }}.zip
-  sha256: c5c4650e2360b6a98cdd1cf9c4d353934e5ac533738ec6a068f7bca76a53b65b
+  sha256: fae310265542b8d1dabd1f0a91c2b5313e7f6ba7f9221fa6ec1765629fd9636c
 
 
 
